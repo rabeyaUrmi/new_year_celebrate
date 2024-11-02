@@ -1,0 +1,50 @@
+/* Header related style */
+.header-part{
+    height: 0 auto;
+    margin: 0 auto;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.018), black), url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1300px;
+    height: 600px;
+    border-radius: 15px;
+}
+.banner{
+    text-align: center;
+}
+.banner-heading{
+    color: #dfdbdb;
+    padding-top: 180px;
+    font-size: 40px;
+}
+.banner-title{
+    color: white;
+    width: 500px;
+    font-size: 65px;
+    padding-left: 400px;
+    margin-top: -20px;
+}
+
+/* Section (Discount) */
+.discount{
+    height: 0 auto;
+    margin: 0 auto;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    padding: 25px;
+}
+.discount-title{
+    color: #FF0000;
+    font-size: 60px;
+}
+.discount-description{
+    color: #FF0000;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.categories{
+    color: black;
+    font-size: 40px;
+    margin-top: -15px;
+}
