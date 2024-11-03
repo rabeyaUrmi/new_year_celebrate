@@ -4,7 +4,7 @@
     margin: 0 auto;
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.018), black), url('../images/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-position: center;
+    /* background-position: center; */
     width: 1300px;
     height: 600px;
     border-radius: 15px;
@@ -25,7 +25,7 @@
     margin-top: -20px;
 }
 
-/* Section (Discount) */
+/* Section (Discount) related style */
 .discount{
     height: 0 auto;
     margin: 0 auto;
@@ -48,3 +48,119 @@
     font-size: 40px;
     margin-top: -15px;
 }
+
+/* Section (party) related style */
+.party{
+    height: 0 auto;
+    margin: 0 auto;
+    width: 1300px;
+    height: 500px;
+    background-image: linear-gradient(0deg, rgba(6, 6, 6, 0.814), rgba(0, 0, 0, 0.351)), url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.party-banner{
+    letter-spacing: 2px;
+    margin-left: 120px;
+}
+.party-title{
+    color: white;
+    font-size: 55px;
+    width: 400px;
+}
+.party-description{
+    font-size: 16px;
+    width: 630px;
+    margin-top: -25px;
+    color: #dfdbdbf4;
+    margin-bottom: 20px;
+}
+.btn{
+    border: 0;
+    padding: 15px;
+    width: 120px;
+    font-size: 17px;
+    background: 0;
+    color: white;
+}
+img{
+    margin-right: 130px;
+}
+
+/* Section (place_date_time) related style */
+.time-date-place{
+    margin: 0 auto;
+    height: 0 auto;
+    width: 1300px;
+    height: 250px;
+    background: linear-gradient(#ff000020,#fcfbfb00);
+    border-radius: 15px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 100px;
+}
+.date,
+.time{
+    margin-top: -10px;
+}
+.btnn{
+    border: 0;
+    background: #FF0000;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 135px;
+    margin-top: 20px;
+}
+
+/* Section (offer) related style */
+.offer{
+    height: 0 auto;
+    margin: 0 auto;
+    width: 1280px;
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+}
+.offer-heading{
+    color: #FF0000;
+    font-size: 20px;
+}
+.offer-title{
+    font-size: 40px;
+    margin-top: -10px;
+}
+.offer-description{
+    letter-spacing: 1px;
+    margin-top: -12px;
+    width: 370px;
+}
+.image-border{
+    width: 300px;
+    border: 10px solid red;
+    border-radius: 200px;
+    padding: 25px;
+}
+.offer-year{
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #FF0000;
+}
+.offer-year-description{
+    letter-spacing: 1px;
+    margin-top: -20px;
+    width: 250px;
+}
+.offer-column1{
+    padding-left: 10px;
+    padding-right: 120px;
+}
+.offer-column2{
+    padding-right: 30px;
+}
+/* Section (party) related style */
+/* Section (party) related style */
